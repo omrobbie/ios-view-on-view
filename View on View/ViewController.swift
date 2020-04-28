@@ -13,4 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+
+    @IBAction func btnClickMeTapped(_ sender: Any) {
+        print("You click me!")
+    }
 }
