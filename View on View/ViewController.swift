@@ -10,11 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myView: UIView!
+
+    fileprivate var viewVC = ViewVC()
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupViewVC()
     }
 
-    @IBAction func btnClickMeTapped(_ sender: Any) {
-        print("You click me!")
+    fileprivate func setupViewVC() {
+        viewVC.showView(self)
+        viewVC.snapTo(myView)
     }
 }
+

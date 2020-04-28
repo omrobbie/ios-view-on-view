@@ -13,6 +13,8 @@
 		FCFD324324581D3F0069E2C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFD324124581D3F0069E2C6 /* Main.storyboard */; };
 		FCFD324524581D420069E2C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFD324424581D420069E2C6 /* Assets.xcassets */; };
 		FCFD324824581D420069E2C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFD324624581D420069E2C6 /* LaunchScreen.storyboard */; };
+		FCFD3251245820750069E2C6 /* ViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFD324F245820750069E2C6 /* ViewVC.swift */; };
+		FCFD3252245820750069E2C6 /* ViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCFD3250245820750069E2C6 /* ViewVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FCFD324424581D420069E2C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCFD324724581D420069E2C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCFD324924581D420069E2C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFD324F245820750069E2C6 /* ViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewVC.swift; sourceTree = "<group>"; };
+		FCFD3250245820750069E2C6 /* ViewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FCFD323D24581D3F0069E2C6 /* SceneDelegate.swift */,
 				FCFD323F24581D3F0069E2C6 /* ViewController.swift */,
 				FCFD324124581D3F0069E2C6 /* Main.storyboard */,
+				FCFD324F245820750069E2C6 /* ViewVC.swift */,
+				FCFD3250245820750069E2C6 /* ViewVC.xib */,
 				FCFD324424581D420069E2C6 /* Assets.xcassets */,
 				FCFD324624581D420069E2C6 /* LaunchScreen.storyboard */,
 				FCFD324924581D420069E2C6 /* Info.plist */,
@@ -128,6 +134,7 @@
 				FCFD324824581D420069E2C6 /* LaunchScreen.storyboard in Resources */,
 				FCFD324524581D420069E2C6 /* Assets.xcassets in Resources */,
 				FCFD324324581D3F0069E2C6 /* Main.storyboard in Resources */,
+				FCFD3252245820750069E2C6 /* ViewVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				FCFD324024581D3F0069E2C6 /* ViewController.swift in Sources */,
 				FCFD323C24581D3F0069E2C6 /* AppDelegate.swift in Sources */,
 				FCFD323E24581D3F0069E2C6 /* SceneDelegate.swift in Sources */,
+				FCFD3251245820750069E2C6 /* ViewVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

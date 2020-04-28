@@ -10,6 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="View_on_View" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -25,40 +26,31 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pJs-mT-kbM">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hUb-tO-UjN">
                                 <rect key="frame" x="0.0" y="128" width="414" height="300"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gyu-T2-OBY">
-                                        <rect key="frame" x="175" y="135" width="64" height="30"/>
-                                        <state key="normal" title="Click Me!"/>
-                                        <connections>
-                                            <action selector="btnClickMeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hzE-PH-dRQ"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="8ZA-fo-Tve"/>
-                                    <constraint firstItem="Gyu-T2-OBY" firstAttribute="centerY" secondItem="pJs-mT-kbM" secondAttribute="centerY" id="GNV-a2-diW"/>
-                                    <constraint firstItem="Gyu-T2-OBY" firstAttribute="centerX" secondItem="pJs-mT-kbM" secondAttribute="centerX" id="Kp7-UO-tWz"/>
+                                    <constraint firstAttribute="height" constant="300" id="muO-i5-iBg"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V0e-L6-u2L" secondAttribute="trailing" id="26Y-O5-QJz"/>
-                            <constraint firstItem="pJs-mT-kbM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4qV-29-r6e"/>
                             <constraint firstItem="V0e-L6-u2L" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Ac4-88-l3s"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hUb-tO-UjN" secondAttribute="trailing" id="LgL-29-Ajb"/>
                             <constraint firstItem="V0e-L6-u2L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NW3-5R-8fe"/>
-                            <constraint firstItem="pJs-mT-kbM" firstAttribute="top" secondItem="V0e-L6-u2L" secondAttribute="bottom" id="gYM-dw-V09"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pJs-mT-kbM" secondAttribute="trailing" id="qPe-Zf-lDv"/>
+                            <constraint firstItem="hUb-tO-UjN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sky-x0-ERV"/>
+                            <constraint firstItem="hUb-tO-UjN" firstAttribute="top" secondItem="V0e-L6-u2L" secondAttribute="bottom" id="y4x-pd-qm7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="myView" destination="hUb-tO-UjN" id="L5S-jO-utf"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="141" y="139"/>
+            <point key="canvasLocation" x="140.57971014492756" y="138.61607142857142"/>
         </scene>
     </scenes>
 </document>
