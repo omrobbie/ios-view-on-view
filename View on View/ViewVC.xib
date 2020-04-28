@@ -20,6 +20,9 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YF6-W9-1EE">
                     <rect key="frame" x="184" y="353" width="46" height="30"/>
                     <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="btnTapped:" destination="-1" eventType="touchUpInside" id="OLI-IR-GEY"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

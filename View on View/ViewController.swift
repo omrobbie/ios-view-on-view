@@ -20,8 +20,15 @@ class ViewController: UIViewController {
     }
 
     fileprivate func setupViewVC() {
+        viewVC.delegate = self
         viewVC.showView(self)
         viewVC.snapTo(myView)
     }
 }
 
+extension ViewController: ViewVCDelegate {
+
+    func buttonDidTapped() {
+        print("You click me!")
+    }
+}

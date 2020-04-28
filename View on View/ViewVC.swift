@@ -8,7 +8,14 @@
 
 import UIKit
 
+protocol ViewVCDelegate {
+
+    func buttonDidTapped()
+}
+
 class ViewVC: UIViewController {
+
+    var delegate: ViewVCDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,5 +34,9 @@ class ViewVC: UIViewController {
             view.leftAnchor.constraint(equalTo: insideView.leftAnchor),
         ]
         NSLayoutConstraint.activate(constraints)
+    }
+
+    @IBAction func btnTapped(_ sender: Any) {
+        delegate?.buttonDidTapped()
     }
 }
