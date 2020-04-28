@@ -24,6 +24,10 @@ class ViewController: UIViewController {
         viewVC.showView(self)
         viewVC.snapTo(myView)
     }
+
+    @IBAction func btnRemoveTapped(_ sender: Any) {
+        viewVC.removeFromSuperview()
+    }
 }
 
 extension ViewController: ViewVCDelegate {

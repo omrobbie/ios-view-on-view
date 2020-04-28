@@ -36,6 +36,10 @@ class ViewVC: UIViewController {
         NSLayoutConstraint.activate(constraints)
     }
 
+    func removeFromSuperview() {
+        view.removeFromSuperview()
+    }
+
     @IBAction func btnTapped(_ sender: Any) {
         delegate?.buttonDidTapped()
     }

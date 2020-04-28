@@ -33,15 +33,27 @@
                                     <constraint firstAttribute="height" constant="300" id="muO-i5-iBg"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtE-Co-MYF">
+                                <rect key="frame" x="161" y="488" width="92" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="mQg-Vz-wZi"/>
+                                </constraints>
+                                <state key="normal" title="Remove View"/>
+                                <connections>
+                                    <action selector="btnRemoveTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Muw-iL-wxT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V0e-L6-u2L" secondAttribute="trailing" id="26Y-O5-QJz"/>
                             <constraint firstItem="V0e-L6-u2L" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Ac4-88-l3s"/>
+                            <constraint firstItem="FtE-Co-MYF" firstAttribute="top" secondItem="hUb-tO-UjN" secondAttribute="bottom" constant="60" id="Bjf-RP-gUh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hUb-tO-UjN" secondAttribute="trailing" id="LgL-29-Ajb"/>
                             <constraint firstItem="V0e-L6-u2L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NW3-5R-8fe"/>
                             <constraint firstItem="hUb-tO-UjN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sky-x0-ERV"/>
                             <constraint firstItem="hUb-tO-UjN" firstAttribute="top" secondItem="V0e-L6-u2L" secondAttribute="bottom" id="y4x-pd-qm7"/>
+                            <constraint firstItem="FtE-Co-MYF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zXl-7I-T1p"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
